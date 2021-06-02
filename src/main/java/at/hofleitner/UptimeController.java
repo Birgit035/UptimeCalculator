@@ -9,7 +9,6 @@ import javax.ws.rs.core.MediaType;
 //we told the controller:
 @Path("/api/uptime") // you are acceible by this path
 public class UptimeController {
-
     @GET //and you have a method which should be exposed using hpt
     @Path("/{uptime}") //sagt, dass man hier Zahl reinschreiben darf
     @Produces(MediaType.TEXT_PLAIN)
